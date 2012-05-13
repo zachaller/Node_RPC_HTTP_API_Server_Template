@@ -1,0 +1,24 @@
+{
+	"name": "ezNode",
+	"version": "v0.0.1",
+	"description": "NodeJS Service for HtmlEz",
+	"repository": "git@github.com:AeroSpaceNetwork/learn.aero.und.edu.git",
+	"private": true,
+	"contributors":
+	[
+		{ "name": "Zach Aller", "email": "allerzach@gmail.com" },
+		{ "name": "Ryan S.", "email": "noxryan@gmail.com" }
+	],
+	"dependencies":
+	{
+		"now": "git://github.com/AeroSpaceNetwork/now.git",
+		"async": "git://github.com/caolan/async.git",
+		"mailer": "git://github.com/Marak/node_mailer.git",
+		"node-uuid": "git://github.com/broofa/node-uuid.git",
+		"formidable": "git://github.com/felixge/node-formidable.git",
+		"tedious": "git://github.com/pekim/tedious.git#da17f5b8479b798018e5d8e8cbb921df6a5c4dab",
+		"director": "git://github.com/flatiron/director.git"
+	},
+	"main": "index",
+	"engines": { "node": ">= 0.5.0 < 0.8.0" }
+}
